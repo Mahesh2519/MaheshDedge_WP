@@ -1,0 +1,55 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+<label><h1><strong>Car Price Prediction (Data sciecne)</strong></h1></label>
+
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <h4>
+        This project is aimed to build a car price prediction model using machine learning algorithms and python Django FrameWork. <br>
+        This project shows car price of used cars and first time car buyers.<br>
+      </h4>
+    </div>
+    <table>
+      <th> details</th>
+      <tr>
+        <td>DataSet</td>
+        <td>: CarDekho (Downloaded from Kaggle.com)</td>
+      </tr>
+      <tr>
+        <td>Technology used </td>
+        <td>: Python, Machine Learning, HTML, CSS </td>
+      </tr>
+      <tr>
+        <td>Web FrameWork</td>
+        <td>: Django</td>
+      </tr>
+      <tr>
+        <td>Deployed on</td>
+        <td>: Heroku</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>IDE</td>
+        <td>: Atom</td>
+      </tr>
+    </table>
+    <a href="https://github.com/Mahesh2519/Car_Pred_DSML.git"><button type="submit" name="button">GitHub Repository</button></a>
+    <a href="https://carpricedatascience2021.herokuapp.com/"><button type="submit" name="button"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Project Website</button></a>
+  </div>
+  <div class="column">
+    <div class="proj-icon">
+      {% load staticfiles %}
+      <table border="5px solid gray">
+        <td><img src="{% static 'images/car.jpg' %}" width = "600px" height = "300x"  alt="Image not found!"></td>
+      </table>
+
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

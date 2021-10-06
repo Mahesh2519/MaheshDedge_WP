@@ -1,0 +1,39 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+<!-- <div class="introduction-heder">
+  <h class="introduction"><em> Hello, <br>
+    I'm <strong>Mahesh Dedge..</em></strong> </h>
+</div> -->
+
+  <!-- <a href="{% url 'portApp:projectlist' %}"> Project List</a>
+  <hr></hr>
+  <a href="{% url 'portApp:certificate' %}"> Certificates </a> -->
+  <div class="row">
+    <div class="column">
+      <div id="my" >
+        <h class="introduction"><em> Hello, I'm <br>
+          <strong>Mahesh Dedge..</em></strong> </h>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="proj-icon">
+        {% load staticfiles %}
+        <table border="2px solid gray">
+          <td><img src="{% static 'images/Mahesh25.png' %}" width = "500px" height = "500x"  alt="Image not found!"></td>
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="row">
+    <div class="column">
+
+    </div>
+    <div class="column">
+
+    </div>
+  </div> -->
+{% endblock %}

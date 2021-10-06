@@ -1,0 +1,89 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+<label><h1><strong>Absenteeism at work (Data Science)</strong></h1></label>
+
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <table>
+        <td><h6> Employee is a great factor of the economy in the sense that we have to one way or the other put in our human efforts to ensure the progress of a business. <br>So, an employee with ineffective performance will disrupt the flow in labor, which will disrupt the flow in production and in turn disrupt the profit, which is bad for business. <br>Now, every organization expects maximum profit and reduced cost management which the ineffectiveness of her employees hinder. One of the greatest controllable factors that affects the effectiveness of the employees is punctuality. <br>Understanding the causes of absenteeism may help to empower an organization with the tools to gain maximum profit and customer satisfaction.
+        <br><br>The aim of this paper is to help the human resources department of any organization discover the factors and causes of employees’ absence using computerized technologies. The research conducts data analysis on the absentee database and explored some factors that have a good correlation with absenteeism and gathered insights inferred from the data with proposed proposals to overcome most of them.
+        </h6></td>
+      </table>
+    </div>
+    <table>
+      <th> details</th>
+      <tr>
+        <td>DataSet</td>
+        <td>: Absenteeism (Downloaded from Kaggle.com)</td>
+      </tr>
+      <tr>
+        <td>Technology used </td>
+        <td>: Python, Machine Learning, HTML, CSS </td>
+      </tr>
+      <tr>
+        <td>Web FrameWork</td>
+        <td>: Django <br> </td>
+      </tr>
+      <tr>
+        <td>Deployed on</td>
+        <td>: Heroku</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>IDE</td>
+        <td>: Atom, Jupyter Notebook</td>
+      </tr>
+    </table>
+    <a href="https://github.com/Mahesh2519/car_price_prediction.git"><button type="submit" name="button">GitHub Repository</button></a>
+    <a href="#"><button type="submit" name="button"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Project website</button></a>
+  </div>
+  <div class="column">
+    <div class="proj-icon">
+      {% load staticfiles %}
+      <table border="5px solid gray">
+        <td><img src="{% static 'images/absent.jpg' %}" width = "600px" height = "300x"  alt="Image not found!"></td>
+      </table>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- <li>
+  <ul class="project-title"><a href="#"><h1>Absenteeism at work (Data Science)</h1></a></ul>
+
+
+</li>
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <h6> Employee is a great factor of the economy in the sense that we have to one way or the other put in our human efforts to ensure the progress of a business. <br>So, an employee with ineffective performance will disrupt the flow in labor, which will disrupt the flow in production and in turn disrupt the profit, which is bad for business. <br>Now, every organization expects maximum profit and reduced cost management which the ineffectiveness of her employees hinder. One of the greatest controllable factors that affects the effectiveness of the employees is punctuality. <br>Understanding the causes of absenteeism may help to empower an organization with the tools to gain maximum profit and customer satisfaction.
+      <br><br>The aim of this paper is to help the human resources department of any organization discover the factors and causes of employees’ absence using computerized technologies. The research conducts data analysis on the absentee database and explored some factors that have a good correlation with absenteeism and gathered insights inferred from the data with proposed proposals to overcome most of them.
+      </h6>
+      <ul class="intro">
+        <li>
+          <h5>
+          <ul> DataBase: Absentism (Downloaded from Kaggle.com)</ul>
+          <ul> Technology used : Python, Machine Learning </ul>
+          <ul> Web FrameWork : Django</ul>
+          <!-- <ul> <a href="#">Github Repository </a></ul> -->
+          <!-- <ul> <button type="button" class="btn btn-primary" name="button" ><a href="">GitHub Repository</a></button></ul>
+
+          </h5>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="column">
+    <div class="proj-icon">
+      {% load staticfiles %}
+      <img src="{% static 'images/absent.jpg' %}" width = "550px" height = "300px" alt="Image not found!">
+    </div>
+  </div>
+</div> -->
+{% endblock %}

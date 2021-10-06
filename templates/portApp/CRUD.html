@@ -1,0 +1,42 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+
+
+    <label><h1><strong>CRUD</strong></h1></label>
+
+  <div class="row">
+    <div class="column">
+      <div class="about">
+        <h4>
+          I've made this mini basic project with dynamic input in console.to perform Create , Read, Update and Delete operation using PostgeSQL database, <br>
+          with this code we can easily perform any one of the required operation.
+        </h4>
+      </div>
+      <table>
+        <th> details</th>
+        <tr>
+          <td>Technology used </td>
+          <td>: Python, postgreSQL</td>
+        </tr>
+        <tr>
+          <td>IDE</td>
+          <td>: Atom</td>
+        </tr>
+      </table>
+      <a href="https://github.com/Mahesh2519/CRUD.git"><button type="submit" name="button">GitHub Repository</button></a>
+      <a href="#"><button type="submit" name="button"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Project website</button></a>
+    </div>
+    <div class="column">
+      <div class="proj-icon">
+        {% load staticfiles %}
+        <table border="5px solid gray">
+          <td><img src="{% static 'images/crud.png' %}" width = "500px" height = "300x"  alt="Image not found!"></td>
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+
+
+{% endblock %}

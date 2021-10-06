@@ -1,0 +1,88 @@
+body{
+    background: url(https://c4.wallpaperflare.com/wallpaper/556/970/373/artwork-white-hexagon-abstract-3d-hd-wallpaper-preview.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+.introduction{
+  font-size: 50px;
+  color: black;
+  text-align:-moz-center;
+}
+
+.my_img{
+  margin-top: 500px;
+  margin-left: 500px;
+  width: 200%;
+  height: auto;
+}
+
+h3{
+  color:black;
+}
+
+.contact{
+
+  color: black;
+  text-align:-moz-center;
+}
+
+.introductions{
+  margin-top:100px;
+}
+
+.certificate-heading{
+  color: black;
+  text-align:-moz-center;
+}
+
+.certificate-list{
+  color: black;
+  text-align:-moz-center;
+}
+
+.project-list{
+  color: black;
+  text-align:-moz-center;
+}
+
+a{
+  color: black;
+}
+
+.intro{
+  color: black;
+  text-align:-moz-center;
+}
+
+.about{
+  color: black;
+  font-size: 5px;
+}
+
+.project-title{
+  color: black;
+  text-align:center;
+}
+
+.proj-icon{
+  margin-left: 200px;
+}
+
+.project-list{
+  display:block;
+  justify-content: space-around;
+}
+button{
+  width: 100%;
+  margin: 10px; /* or whatever you like */
+}
+
+#my{
+  text-align: center;
+  margin-top: 200px;
+}

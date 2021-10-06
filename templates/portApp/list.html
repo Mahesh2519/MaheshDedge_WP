@@ -1,0 +1,15 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+<div class="project-list" style="width: 100%";>
+  <a href="{% url 'portApp:carprice' %}"><button type="submit" name="button"><h3>Car Price Prediction Data Science project</h3></button></a>
+  <hr></hr>
+  <a href="{% url 'portApp:todo' %}"><button type="submit" name="button"><h3>Todo List project</h3></button></a>
+  <hr></hr>
+  <a href="{% url 'portApp:crud' %}"><button type="submit" name="button"><h3>CRUD project</h3></button></a>
+  <hr></hr>
+  <a href="{% url 'portApp:absentism' %}"><button type="submit" name="button"><h3>Absenteeism at work project</h3></button></a>
+  <hr></hr>
+
+</div>
+
+{% endblock %}

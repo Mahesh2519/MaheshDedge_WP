@@ -1,0 +1,83 @@
+{% extends 'portApp/base.html' %}
+{% block body_block %}
+
+<label><h1><strong>Todo List Project</strong></h1></label>
+
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <h4>
+        In this Todo List project we can create, update or delete the task,<br>
+        also completed task will shown as mark through with overall beautiful background.<br>
+        we can see all created task as list on homepage.
+      </h4>
+    </div>
+    <table>
+      <th> details</th>
+      <tr>
+        <td>Technology used </td>
+        <td>: Python, HTML, CSS, JavaScript</td>
+      </tr>
+      <tr>
+        <td>Web FrameWork</td>
+        <td>: Django</td>
+      </tr>
+      <tr>
+        <td>Deployed on</td>
+        <td>: Heroku</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>IDE</td>
+        <td>: Atom</td>
+      </tr>
+    </table>
+    <a href="https://github.com/Mahesh2519/TodoList_Mahesh/tree/master"><button type="submit" name="button">GitHub Repository</button></a>
+    <a href="https://todolistdjango2021.herokuapp.com/"><button type="submit" name="button"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Project website</button></a>
+  </div>
+  <div class="column">
+    <div class="proj-icon">
+      {% load staticfiles %}
+      <table border="5px solid gray">
+        <td><img src="{% static 'images/todo.png' %}" width = "400px" height = "400x"  alt="Image not found!"></td>
+      </table>
+
+    </div>
+
+  </div>
+</div>
+<!-- <li>
+  <ul class="project-title"><a href="#"><h1></h1></a></ul>
+</li>
+
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <h4>
+
+      </h4>
+    </div>
+    <ul class="intro">
+      <li>
+        <ul> Technology used : Python, HTML, CSS, JavaScript </ul>
+        <ul> Web FrameWork : Django</ul>
+        <ul> Deployed on:    Heroku </ul>
+        <ul> <button type="button" class="btn btn-primary" name="button" ><a href="">GitHub Repository</a></button></ul>
+
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="column">
+    <div class="proj-icon">
+      {% load staticfiles %}
+      <img src="{% static 'images/todo.png' %}" width = "400px" height = "400px" alt="Image not found!">
+    </div>
+
+  </div>
+</div> -->
+{% endblock %}
