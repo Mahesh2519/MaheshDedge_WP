@@ -35,7 +35,7 @@ class AboutView(TemplateView):
 def downloadfile(request):
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    filename = 'MaheshDedge_DataScience_Python_Django_Resume.doc'
+    filename = 'MaheshDedge_DataScience_Python_Django_R_Resume.doc'
     filepath = base_dir + '/Files/' + filename
     thefile = filepath
     filename = os.path.basename(thefile)
